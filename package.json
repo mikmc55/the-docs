@@ -1,0 +1,16 @@
+{
+  "name": "nzbio-vercel",
+  "version": "3.0.0",
+  "description": "NZBio Stremio addon — Vercel serverless, no NZBDav",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev":   "node api/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
